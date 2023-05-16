@@ -14,6 +14,7 @@ body {
     height: 600px;
     width: 400px;
     background-color: white;
+    margin-top: 200px;
 }
 
 .header {
@@ -25,25 +26,29 @@ body {
 }
 
 .logo {
-    height: 20px; 
-    width: 20px;
+    height: 25px; 
+    width: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .logo2 {
-    height: 20px; 
+    height: 40px; 
     width: 20px;
+        
 }
 
-.logosname {
+.logosName {
     font-family: roboto condensed;
     font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 
 .menu {
     width: 90%;
-    text-align: right;
-    font-size: 30px;
-    
+    margin-left: 290px;
+        
 }
 
 img {
@@ -55,17 +60,24 @@ img {
     display: flex;
 }
 
-.icons {
+.Icons {
     font-size: 20px;
     display: flex;
-}
-
-.reactionButtons {
-    width: 40%;
+    padding-top: 15px;
     padding-left: 10px;
-    padding-top: 12px;
+    padding-bottom: 5px;
+    
 }
 
-.savebutton {
-    justify-content: right;
+.fa-regular {
+    padding-left: 3px;
+}
+
+.save {
+    margin-left: 280px;
+    
+}
+
+p {
+    padding-left: 7px;
 }
